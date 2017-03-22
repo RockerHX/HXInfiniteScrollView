@@ -14,6 +14,7 @@
 		C61074411E817220003EA65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610743F1E817220003EA65B /* LaunchScreen.storyboard */; };
 		C610744C1E817220003EA65B /* HXInfiniteScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610744B1E817220003EA65B /* HXInfiniteScrollViewTests.swift */; };
 		C61074571E817220003EA65B /* HXInfiniteScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074561E817220003EA65B /* HXInfiniteScrollViewUITests.swift */; };
+		C61074671E82CB13003EA65B /* HXCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074661E82CB13003EA65B /* HXCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C61074521E817220003EA65B /* HXInfiniteScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXInfiniteScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61074561E817220003EA65B /* HXInfiniteScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewUITests.swift; sourceTree = "<group>"; };
 		C61074581E817220003EA65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61074661E82CB13003EA65B /* HXCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C61074361E817220003EA65B /* AppDelegate.swift */,
 				C61074381E817220003EA65B /* ViewController.swift */,
+				C61074661E82CB13003EA65B /* HXCollectionViewCell.swift */,
 				C610743A1E817220003EA65B /* Main.storyboard */,
 				C610743D1E817220003EA65B /* Assets.xcassets */,
 				C610743F1E817220003EA65B /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					C61074321E817220003EA65B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HG8SBJDJPT;
 						ProvisioningStyle = Automatic;
 					};
 					C61074461E817220003EA65B = {
@@ -261,6 +265,7 @@
 			files = (
 				C61074391E817220003EA65B /* ViewController.swift in Sources */,
 				C61074371E817220003EA65B /* AppDelegate.swift in Sources */,
+				C61074671E82CB13003EA65B /* HXCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG8SBJDJPT;
 				INFOPLIST_FILE = HXInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.HXInfiniteScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG8SBJDJPT;
 				INFOPLIST_FILE = HXInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.HXInfiniteScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +514,7 @@
 				C610745D1E817220003EA65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C610745E1E817220003EA65B /* Build configuration list for PBXNativeTarget "HXInfiniteScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				C61074601E817220003EA65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C61074611E817220003EA65B /* Build configuration list for PBXNativeTarget "HXInfiniteScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				C61074631E817220003EA65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
