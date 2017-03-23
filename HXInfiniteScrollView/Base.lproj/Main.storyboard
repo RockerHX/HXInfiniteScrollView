@@ -18,34 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="o2b-e6-U3C">
-                            <size key="itemSize" width="375" height="667"/>
+                            <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HXCollectionViewCell" id="Jyc-KT-QFw" userLabel="HXCollectionViewCell" customClass="HXCollectionViewCell" customModule="HXInfiniteScrollView" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HXInfiniteScrollViewCell" id="Jyc-KT-QFw" userLabel="HXInfiniteScrollViewCell" customClass="HXInfiniteScrollViewCell" customModule="HXInfiniteScrollView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Index" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-j2-5Wg">
-                                            <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </view>
-                                <constraints>
-                                    <constraint firstItem="NaD-j2-5Wg" firstAttribute="centerX" secondItem="Jyc-KT-QFw" secondAttribute="centerX" id="d4x-xA-jrC"/>
-                                    <constraint firstItem="NaD-j2-5Wg" firstAttribute="centerY" secondItem="Jyc-KT-QFw" secondAttribute="centerY" id="u3X-YG-otv"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="indexLabel" destination="NaD-j2-5Wg" id="DjG-8N-Osd"/>
-                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
