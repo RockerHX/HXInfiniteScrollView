@@ -91,7 +91,7 @@ class HXInfiniteScrollViewController: UICollectionViewController {
     
     // MARK: - Collection View Delegate Methods -
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("Index:\(originalItems.index(of: recombineItems[indexPath.row]))")
+        print("Index:\(String(describing: originalItems.index(of: recombineItems[indexPath.row])))")
     }
     
     // MARK: - Scroll View Delegate Methods -

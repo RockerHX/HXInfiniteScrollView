@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C61074371E817220003EA65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074361E817220003EA65B /* AppDelegate.swift */; };
-		C61074391E817220003EA65B /* HXInfiniteScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074381E817220003EA65B /* HXInfiniteScrollViewController.swift */; };
 		C610743C1E817220003EA65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610743A1E817220003EA65B /* Main.storyboard */; };
 		C610743E1E817220003EA65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610743D1E817220003EA65B /* Assets.xcassets */; };
 		C61074411E817220003EA65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610743F1E817220003EA65B /* LaunchScreen.storyboard */; };
 		C610744C1E817220003EA65B /* HXInfiniteScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610744B1E817220003EA65B /* HXInfiniteScrollViewTests.swift */; };
 		C61074571E817220003EA65B /* HXInfiniteScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074561E817220003EA65B /* HXInfiniteScrollViewUITests.swift */; };
-		C61074671E82CB13003EA65B /* HXInfiniteScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074661E82CB13003EA65B /* HXInfiniteScrollViewCell.swift */; };
+		C6FFCEFE1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFCEFB1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift */; };
+		C6FFCEFF1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFCEFD1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		C61074331E817220003EA65B /* HXInfiniteScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXInfiniteScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61074361E817220003EA65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C61074381E817220003EA65B /* HXInfiniteScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewController.swift; sourceTree = "<group>"; };
 		C610743B1E817220003EA65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C610743D1E817220003EA65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C61074401E817220003EA65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +47,8 @@
 		C61074521E817220003EA65B /* HXInfiniteScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXInfiniteScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61074561E817220003EA65B /* HXInfiniteScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewUITests.swift; sourceTree = "<group>"; };
 		C61074581E817220003EA65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C61074661E82CB13003EA65B /* HXInfiniteScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewCell.swift; sourceTree = "<group>"; };
+		C6FFCEFB1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewController.swift; sourceTree = "<group>"; };
+		C6FFCEFD1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C61074361E817220003EA65B /* AppDelegate.swift */,
-				C61074381E817220003EA65B /* HXInfiniteScrollViewController.swift */,
-				C61074661E82CB13003EA65B /* HXInfiniteScrollViewCell.swift */,
-				C610743A1E817220003EA65B /* Main.storyboard */,
-				C610743D1E817220003EA65B /* Assets.xcassets */,
-				C610743F1E817220003EA65B /* LaunchScreen.storyboard */,
-				C61074421E817220003EA65B /* Info.plist */,
+				C6FFCEF51E9A8EFD00387E87 /* Classes */,
+				C6FFCF001E9A8F0300387E87 /* Resources */,
 			);
 			path = HXInfiniteScrollView;
 			sourceTree = "<group>";
@@ -126,6 +122,74 @@
 				C61074581E817220003EA65B /* Info.plist */,
 			);
 			path = HXInfiniteScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		C6FFCEF51E9A8EFD00387E87 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFCEF61E9A8EFD00387E87 /* Objective-C */,
+				C6FFCEF91E9A8EFD00387E87 /* Swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6FFCEF61E9A8EFD00387E87 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFCEF71E9A8EFD00387E87 /* Controller */,
+				C6FFCEF81E9A8EFD00387E87 /* View */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		C6FFCEF71E9A8EFD00387E87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6FFCEF81E9A8EFD00387E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6FFCEF91E9A8EFD00387E87 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFCEFA1E9A8EFD00387E87 /* Controller */,
+				C6FFCEFC1E9A8EFD00387E87 /* View */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		C6FFCEFA1E9A8EFD00387E87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFCEFB1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6FFCEFC1E9A8EFD00387E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFCEFD1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6FFCF001E9A8F0300387E87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C610743A1E817220003EA65B /* Main.storyboard */,
+				C610743D1E817220003EA65B /* Assets.xcassets */,
+				C610743F1E817220003EA65B /* LaunchScreen.storyboard */,
+				C61074421E817220003EA65B /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C61074391E817220003EA65B /* HXInfiniteScrollViewController.swift in Sources */,
+				C6FFCEFF1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift in Sources */,
 				C61074371E817220003EA65B /* AppDelegate.swift in Sources */,
-				C61074671E82CB13003EA65B /* HXInfiniteScrollViewCell.swift in Sources */,
+				C6FFCEFE1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
