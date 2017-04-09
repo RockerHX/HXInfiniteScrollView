@@ -29,23 +29,6 @@ class HXInfiniteScrollViewController: UICollectionViewController {
     // MARK: - View Controller Life Cycle -
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let label0 = UILabel()
-        label0.text = "0"
-        label0.textAlignment = .center
-        label0.backgroundColor = UIColor.red
-        
-        let label1 = UILabel()
-        label1.text = "1"
-        label1.textAlignment = .center
-        label1.backgroundColor = UIColor.green
-        
-        let label2 = UILabel()
-        label2.text = "2"
-        label2.textAlignment = .center
-        label2.backgroundColor = UIColor.blue
-        
-        items = [label0, label1, label2]
     }
     
     // MARK: - Private Methods -
@@ -110,7 +93,7 @@ class HXInfiniteScrollViewController: UICollectionViewController {
 
 extension HXInfiniteScrollViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let frame = UIApplication.shared.windows.first!.frame
+        let frame = view.frame
         return CGSize(width: frame.width, height: frame.height)
     }
 }
