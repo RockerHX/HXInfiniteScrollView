@@ -15,6 +15,7 @@
 		C61074571E817220003EA65B /* HXInfiniteScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61074561E817220003EA65B /* HXInfiniteScrollViewUITests.swift */; };
 		C6FFCEFE1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFCEFB1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift */; };
 		C6FFCEFF1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFCEFD1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift */; };
+		C6FFCF021E9A93F900387E87 /* HXRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFCF011E9A93F900387E87 /* HXRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C61074581E817220003EA65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6FFCEFB1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewController.swift; sourceTree = "<group>"; };
 		C6FFCEFD1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXInfiniteScrollViewCell.swift; sourceTree = "<group>"; };
+		C6FFCF011E9A93F900387E87 /* HXRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C61074361E817220003EA65B /* AppDelegate.swift */,
+				C6FFCF011E9A93F900387E87 /* HXRootViewController.swift */,
 				C6FFCEF51E9A8EFD00387E87 /* Classes */,
 				C6FFCF001E9A8F0300387E87 /* Resources */,
 			);
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FFCF021E9A93F900387E87 /* HXRootViewController.swift in Sources */,
 				C6FFCEFF1E9A8EFD00387E87 /* HXInfiniteScrollViewCell.swift in Sources */,
 				C61074371E817220003EA65B /* AppDelegate.swift in Sources */,
 				C6FFCEFE1E9A8EFD00387E87 /* HXInfiniteScrollViewController.swift in Sources */,
